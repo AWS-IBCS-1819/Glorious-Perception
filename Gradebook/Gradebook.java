@@ -19,8 +19,9 @@ public class Gradebook {
     System.out.println("4. Lowest Grade");
     System.out.println("5. Class Subject and Teacher");
     System.out.println("6. Student Roster");
-    Integer a = in1.nextLine();
+  //  Integer a = in1.nextLine();
 
+/*
     if (a.equals(1)){
       System.out.println("The class mean grade was " + gradeBook.meanGrade() + ".");
     }
@@ -66,7 +67,7 @@ public class Gradebook {
              * for(int score: scores) {
              *      System.out.println("Score:- "+score);
              *  }
-             */
+
             // Better use the below way, here i am restricting the iteration till i
             // i is actually the count of lines your file have.
             for (int j = 0; j < i; j++) {
@@ -74,6 +75,6 @@ public class Gradebook {
             }
           } catch (FileNotFoundException e) {
           e.printStackTrace();
-      }
+      }*/
   }
 }

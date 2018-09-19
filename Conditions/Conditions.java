@@ -27,9 +27,9 @@ public class Conditions {
     System.out.println(myStr);
 
     int numO = 0;
-    for (int i = 0; i < count - 1; i++) {
-      if (myStr.substring(i, i + 1).equals("a")) {
-        System.out.println(myStr.substring(i, i + 1));
+    for (int i = 0; i < myStr.capacity() + 4; i++) {
+      if (myStr.substring(i, i + 4).equals("Harry")) {
+        System.out.println(myStr.substring(i, i + 4));
         numO++;
       }
     }

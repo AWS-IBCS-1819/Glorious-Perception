@@ -1,9 +1,6 @@
 //Maggie Zhang
 //Fibonacci.java
 
-
-import java.util.*;
-
 public class Fibonacci{
   public static int Fib(int n) {
     if(n == 1){

@@ -19,13 +19,18 @@ public class Reverse{
 
   public static void main(String[] args) {
 
+        //loop method
         System.out.println("Please enter your word choice to reverse:");
         Scanner in = new Scanner(System.in);
         String yis = in.nextLine();
         StringBuilder fin = new StringBuilder(yis);
         System.out.println("Its reverse is");
-        System.out.println(fin.reverse().toString());
+        for (int i = fin.length() - 1; i >= 0;i--){
+          System.out.print(fin.charAt(i));
+        }
+        System.out.print("\n");
 
+        //recursion method
         System.out.println("Please enter your word choice to reverse:");
         Scanner in2 = new Scanner(System.in);
         String en = in2.nextLine();
